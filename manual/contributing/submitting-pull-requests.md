@@ -17,5 +17,5 @@ meets certain criteria. If you like to run these checks locally first. You can r
 - `deno task lint` will run the linter and check code for styling issues and common mistakes. Normally it only checks
   files that have been modified or staged. If you want it to check all files you can run it with the `--all` flag.
 - `deno task check` downloads dependency type files and then runs the `tsc` type checker on all the code.
-- Finally there's `deno task build-studio` and `deno task build-engine`, to build Studio and the engine respectively.
+- Finally, there are `deno task build-studio` and `deno task build-engine`, to build Studio and the engine respectively.
   Though you'll rarely need to run this.
