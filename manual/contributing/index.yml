@@ -1,0 +1,4 @@
+mainPage: main.md
+pages:
+  - building-from-source.md
+  - submitting-pull-requests.md
