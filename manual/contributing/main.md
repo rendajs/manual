@@ -17,7 +17,3 @@ There are many ways to contribute:
   [here](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files).
 - **Spreading the word:** Share knowledge about Renda with the community or ask questions. Tell your friends about
   Renda, tell your mom, tell your local plumber!
-
-If you want to
-
-https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github
