@@ -11,4 +11,4 @@ you to build your scenes, materials, and assets. If you want to learn how to use
 [Getting Started](./getting-started/main.md).
 
 But if you prefer to use Renda as a library this is possible as well. Head over to
-[link](./different-layers-of-abstraction.md) to find out how.
+[Framework, Library, or in Between](./framework-library-or-in-between.md) to find out how.

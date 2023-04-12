@@ -1,7 +1,7 @@
 # Getting Started
 
 This section goes over how to use Renda Studio. If you'd like to use Renda as a library instead, you can find out more
-about this at [Different Layers of Abstraction](../different-layers-of-abstraction.md).
+about this at [Framework, Library, or in Between](../framework-library-or-in-between.md).
 
 ## Installation
 
