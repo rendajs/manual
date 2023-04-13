@@ -1,3 +1,4 @@
 mainPage: main.md
 pages:
-  - overview-of-renda-studio.md
+  - your-first-sphere.md
+  - framework-library-or-in-between.md

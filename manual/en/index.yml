@@ -1,7 +1,7 @@
 pages:
   - introduction.md
   - getting-started/
-  - framework-library-or-in-between.md
+  - studio-windows/
   - preferences.md
-  - workspaces.md
-  - contributing/
+  - advanced/
+  - contributing.md

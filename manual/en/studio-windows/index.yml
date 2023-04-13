@@ -1,0 +1,6 @@
+mainPage: main.md
+pages:
+  - workspaces.md
+  - project-window.md
+  - entity-editor.md
+  - outliner.md
