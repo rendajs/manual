@@ -16,14 +16,3 @@ Tab** on the other hand will show you a list of all the tab types that can be
 added. Naturally, you can also resize windows by dragging their edges around.
 
 This way you can customize your workspace to your own preferences.
-
-## Windows and Content Windows
-
-Because each window can have multiple tabs in it, Renda has two distinguished
-concepts for windows:
-
-- **Windows** are the full areas you see on the screen, they are the ones that
-  you can resize.
-- **Content windows** are the individual tabs and their content.
-
-We'll use 'content window' and 'tab' interchangeably throughout this manual.

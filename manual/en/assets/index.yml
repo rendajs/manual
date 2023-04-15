@@ -1,0 +1,5 @@
+mainPage: main.md
+pages:
+  - built-in-assets.md
+  - embedded-assets.md
+  - default-asset-links.md

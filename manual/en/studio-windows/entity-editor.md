@@ -1,14 +1,14 @@
 # Entity Editor
 
 The entity editor is where all the magic happens. Naturally it is also the most
-visualy interesting content window inside Renda Studio. The entity editor is
-what allows you to move around entities, or make adjustments to properties while
-instantly seeing the updated changes.
+visualy interesting window inside Renda Studio. The entity editor is what allows
+you to move around entities, or make adjustments to properties while instantly
+seeing the updated changes.
 
 ## Navigating the Editor
 
 When you are using a touchpad that supports two finger scrolling, you can use
-that to controll the camera.
+that to control the camera.
 
 By default, the camera orbits around when dragging like this, but there are a
 few modifier keys that you can use to control the behaviour of the camera:

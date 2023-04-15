@@ -2,6 +2,9 @@ pages:
   - introduction.md
   - getting-started/
   - studio-windows/
+  - interface/
+  - materials/
+  - assets/
   - preferences.md
   - advanced/
   - contributing.md

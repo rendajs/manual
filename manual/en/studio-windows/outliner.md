@@ -3,7 +3,7 @@
 The outliner allows you to modify the hierarchy of your current entity editor.
 In here you can create or delete entities, drag entities around, or rename them.
 
-To create a new entity, click the **+** button at the top of the content window.
+To create a new entity, click the **+** button at the top of the window.
 
 To delete an entity and all of its children, right click an entity and click
 **Delete** or use the `Delete` key.

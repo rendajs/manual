@@ -24,7 +24,7 @@ Entities are the main building block of a scene. In fact, Renda doesn't even
 have any concept of scenes. Every scene is also an entity. So if you want to
 create a sphere, you first need an entity that will serve as a scene.
 
-You can do this in the **project window** which can be found in the bottom left
+You can do this in the **Project Window** which can be found in the bottom left
 of the screen. This window contains all the assets for your current project. But
 at the moment it is pretty empty, let's do something about that!
 
@@ -37,7 +37,7 @@ Great, you have created your first asset!
 NOTE:
 
 As you may have noticed, this asset has the `.json` extension. Many assets are
-basic json files with a very simple structure. This makes it easy to modify
+basic JSON files with a very simple structure. This makes it easy to modify
 files manually as well.
 
 Usually these files have their default values omitted as well. Making it very
@@ -49,14 +49,14 @@ END NOTE
 
 Now let's **double click** the newly created asset. This will open the entity so
 that you can make changes to it. When doing this, your entity appears inside the
-**outliner window**.
+**Outliner Window**.
 
 The outliner window shows the tree structure of the entity that is currently
 open. But since this entity was just created, it only contains a single entry
 right now.
 
 Go ahead and add a couple of children to this entity. You can do so by clicking
-the **+** at the top of the **outliner window**.
+the **+** at the top of the **Outliner Window**.
 
 NOTE: Entities function as a tree of nodes. This means you can add any number of
 child entities to any other entity. Simply select an entity by clicking it, and
@@ -68,14 +68,14 @@ sphere asset to one of them.
 ## Linking the Sphere
 
 You may have noticed that if you select certain things, some things change
-inside **properties window**. The properties window allows you to view and
+inside **Properties Window**. The properties window allows you to view and
 modify properties of the selected item.
 
 In order to link your sphere asset from earlier, you first need to add a new
 **mesh component** to an entity:
 
-1. Click one of your entities in the **outliner window**.
-2. Inside the **properties window**, click **+** in the **Components** section.
+1. Click one of your entities in the **Outliner Window**.
+2. Inside the **Properties Window**, click **+** in the **Components** section.
 3. From the context menu, choose **Mesh**.
 4. Drag your mesh asset from earlier to the droppable area next to **Mesh**
    inside the **mesh component**.
@@ -92,7 +92,7 @@ because it obscures the grid. So let's add some lights to the scene as well.
 
 1. Select another entity in your **outliner**. If you need more entities, just
    click the **+** button again.
-2. Just like before, go to the **properties window** and click the **+** button
+2. Just like before, go to the **Properties Window** and click the **+** button
    in the **Components** section.
 3. This time we'll add a light component by clicking **Light** from the context
    menu.
@@ -108,7 +108,7 @@ white circle around the light icon and move it outside of the sphere.
 
 And that's it! You should now have a visible sphere inside your scene. Go ahead
 and save your changes if you like by clicking the **Save** button in the
-**entity editor window**, otherwise you the entity asset will be empty again
+**Entity Editor Window**, otherwise you the entity asset will be empty again
 next time you open it.
 
 We rushed a bit through a lot of different topics in this chapter. Otherwise it

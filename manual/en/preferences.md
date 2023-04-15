@@ -1,15 +1,15 @@
 # Preferences
 
 Renda Studio has no single location where all preferences are stored. Instead,
-you'll usually find the preference you're looking for inside the content window
-related to that preference. If a content window has preferences available, it
-will show a button in the top right with a gear icon. Clicking that will reveal
-a popover containing all the preferences for that content window.
+you'll usually find the preference you're looking for inside the window related
+to that preference. If a window has preferences available, it will show a button
+in the top right with a gear icon. Clicking that will reveal a popover
+containing all the preferences for that window.
 
-NOTE: Content windows can contain preferences that are not shown in this popover
-menu. Though they are usually preferences that you wouldn't want to manually
-change anyway. One such example is the camera position and rotation from the
-entity editor.
+NOTE: Windows can contain preferences that are not shown in this popover menu.
+Though they are usually preferences that you wouldn't want to manually change
+anyway. One such example is the camera position and rotation from the entity
+editor.
 
 ## Preference Locations
 
@@ -20,7 +20,7 @@ change your preference for the current project for example.
 The locations you can choose from:
 
 - **Global:** These preferences are stored in browser cookies. This causes the
-  values to be shared across projects, content windows, and workspaces.
+  values to be shared across projects, windows, and workspaces.
 - **Workspace:** Preferences are stored in the current workspace. Switching to a
   different project will not cause the preference to change. But switching to a
   different workspace means the value will change to either that of the new
@@ -34,11 +34,11 @@ The locations you can choose from:
   been `.gitignore`'d. So your changes will stay on your local device, and other
   users of the repository will not be surprised by your obscure configurations.
 - **Window - Workspace:** This is similar to 'Workspace' except that the value
-  is applied to the current content window only. For example, this allows you to
-  create two entity editors side by side. One where the grid is visible, and
-  another where it isn't.
+  is applied to the current window only. For example, this allows you to create
+  two entity editors side by side. One where the grid is visible, and another
+  where it isn't.
 - **Window - Project:** Again, this is similar to 'Project' but stored inside
-  the specific content window where you are editing the value from.
+  the specific window where you are editing the value from.
 
 The dropdown menu (and the above list) shows all the locations in order of
 priority. So if a value has been modified inside the 'project' location, it will

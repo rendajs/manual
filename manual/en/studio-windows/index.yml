@@ -4,3 +4,6 @@ pages:
   - project-window.md
   - entity-editor.md
   - outliner.md
+  - properties-window.md
+  - build-window.md
+  - history-graph.md

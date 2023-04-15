@@ -6,7 +6,7 @@ your likings.
 
 Using it is relatively straight forward. You can drag files and folders around
 to organise them. It's also possible to drag assets to droppable GUIs in other
-content windows.
+windows.
 
 If you prefer not to drag, it's also possible to right click an asset and then
 choosing **Copy Asset UUID**, and then right clicking the destination GUI and
