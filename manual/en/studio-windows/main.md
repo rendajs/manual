@@ -1,7 +1,7 @@
 # Studio Windows
 
 Renda Studio is divided into several windows. Each window has an icon in the top
-left corner. And you can recognize what type of window something by its icon.
+left corner. And you can recognize what type of window something is by its icon.
 
 NOTE: If the icon seems a bit mysterious to you, you can also hover over it with
 your mouse and get a tooltip that tells you the name of the window type.

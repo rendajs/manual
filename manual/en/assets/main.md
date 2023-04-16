@@ -27,6 +27,9 @@ easily be inspected within either Renda Studio, or you can try to edit the raw
 file with any text editor. Some examples include: materials, vertex state, or
 sampler assets.
 
+Usually these files have their default values omitted inside the JSON file. This makes it very
+easy to read them when authoring new files or comitting changes in Git.
+
 Other assets like images or audio files are usually more efficient to store in a
 binary format. These might not be as easy to view in a text editor, though you
 can usually edit them with external tools. One exception are `.rmesh` files,
