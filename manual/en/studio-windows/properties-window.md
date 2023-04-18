@@ -22,7 +22,7 @@ component it is, so we won't talk too much about that here.
 
 To add a new component, you can use the **+** button.
 
-To remove a component, **right-click** the name of that component and choose
+To remove a component, right-click the name of that component and choose
 **Remove**.
 
 ## Working With Selected Assets

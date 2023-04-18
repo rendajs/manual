@@ -1,17 +1,17 @@
 # Entity Editor
 
 The entity editor is where all the magic happens. Naturally, it is also the most
-visually interesting window inside Renda Studio. The entity editor is what allows
-you to move around entities, or make adjustments to properties while instantly
-seeing the updated changes.
+visually interesting window inside Renda Studio. The entity editor is what
+allows you to move around entities, or make adjustments to properties while
+instantly seeing the updated changes.
 
 ## Navigating the Editor
 
 When you are using a touchpad that supports two-finger scrolling, you can use
 that to control the camera.
 
-By default, this gesture orbits the camera, but there are a
-few modifier keys that you can use to control the behavior of the gesture:
+By default, this gesture orbits the camera, but there are a few modifier keys
+that you can use to control the behavior of the gesture:
 
 - `Shift` allows you to pan the camera, i.e. left, right, up, and down in a
   straight line, without rotating.
@@ -19,8 +19,8 @@ few modifier keys that you can use to control the behavior of the gesture:
   on your browser and platform, you might also be able to use pinch gestures on
   your touchpad to move the camera this way.
 
-NOTE: Moving the camera while holding down a mouse button is not yet supported, but
-[it is planned](https://github.com/rendajs/Renda/issues/544).
+NOTE: Moving the camera while holding down a mouse button is not yet supported,
+but [it is planned](https://github.com/rendajs/Renda/issues/544).
 
 ## Moving Entities
 
@@ -32,20 +32,24 @@ NOTE: Scaling is
 [not yet implemented](https://github.com/rendajs/Renda/issues/351).
 
 Once you have picked your transformation mode, the gizmo of your selected entity
-should change accordingly. You can drag this gizmo around the scene to move the selected entity.
+should change accordingly. You can drag this gizmo around the scene to move the
+selected entity.
 
 You can also use the `G`, `R`, and `S` keys to switch transformation modes.
 However, this will immediately initiate the dragging action. To stop dragging,
 click the entity editor.
 
-Alternatively, you can keep holding these keys down and move your mouse without clicking. This will keep dragging the entity as long as you hold the key.
+Alternatively, you can keep holding these keys down and move your mouse without
+clicking. This will keep dragging the entity as long as you hold the key.
 
 ## Controlling the Space and Pivot of Your Gizmos
 
-Next to the transformation modes buttons are two extra buttons. These control the
-transformation space and transformation pivot.
+Next to the transformation modes buttons are two extra buttons. These control
+the transformation space and transformation pivot.
 
-The first button controls the **orientation** of your gizmo. When a gizmo is oriented differently, it affects the direction of movement when you move only a single axis.
+The first button controls the **orientation** of your gizmo. When a gizmo is
+oriented differently, it affects the direction of movement when you move only a
+single axis.
 
 There are two orientation modes:
 
@@ -62,4 +66,5 @@ gizmo(s). It has three modes:
 - **multiple** places an individual gizmo at every selected entity.
 - **last** places a single gizmo at the location of your last selected entity.
 
-The position of a gizmo does not affect translation gizmos, but for rotation and scale gizmos it controls the pivot around which an entity is rotated or scaled.
+The position of a gizmo does not affect translation gizmos, but for rotation and
+scale gizmos it controls the pivot around which an entity is rotated or scaled.

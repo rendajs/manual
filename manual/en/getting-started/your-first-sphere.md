@@ -7,7 +7,8 @@ button or by clicking outside of the splash screen.
 
 NOTE: If you have already opened and edited a project before, by default this
 splash screen won't show up. You can click the **Open Project** button inside
-the [project window](../studio-windows/project-window.md) if you want to open it again.
+the [project window](../studio-windows/project-window.md) if you want to open it
+again.
 
 ## Studio Windows
 
@@ -21,7 +22,8 @@ mouse and get a tooltip that tells you the name of the window type.
 ## Creating an Entity
 
 Entities are the main building block of a scene. In fact, Renda doesn't even
-have a concept of scenes, scenes are also an entity. So let's first create an entity that will serve as our scene.
+have a concept of scenes, scenes are also an entity. So let's first create an
+entity that will serve as our scene.
 
 You can do this in the **Project Window** which can be found at the bottom left
 of the screen. This window contains all the assets for your current project. But
@@ -33,9 +35,9 @@ at the moment it is pretty empty, let's do something about that!
 
 Great, you have created your first asset!
 
-NOTE: As you may have noticed, this asset has the `.json` extension. Many assets in Renda are
-basic JSON files with a very simple structure. This makes it very easy to modify
-files with a text editor if you ever need to.
+NOTE: As you may have noticed, this asset has the `.json` extension. Many assets
+in Renda are basic JSON files with a very simple structure. This makes it very
+easy to modify files with a text editor if you ever need to.
 
 ## Opening the Entity
 
@@ -54,11 +56,14 @@ NOTE: Entities act like a tree of nodes. This means you can add any number of
 child entities to any other entity. Simply select an entity by clicking it, and
 use the **+** button again to add a child to the selected entity.
 
-Alright great, you should have a bunch of entities now. Let's try to link a sphere asset to one of them.
+Alright great, you should have a bunch of entities now. Let's try to link a
+sphere asset to one of them.
 
 ## Creating a Sphere Mesh
 
-But before you can link a mesh, you'll need to create it first! Since you already know how to [create an entity](#creating-an-entity), this should sound familiar:
+But before you can link a mesh, you'll need to create it first! Since you
+already know how to [create an entity](#creating-an-entity), this should sound
+familiar:
 
 1. Go to the **Project Window** in the bottom left.
 2. Click the **+** button.
@@ -66,21 +71,24 @@ But before you can link a mesh, you'll need to create it first! Since you alread
 
 This creates a mesh asset that you can now link to an entity.
 
-NOTE: At the moment, newly created meshes are always spheres. In the future, we'd like to have some basic controls over how mesh assets are created. For the time being it's recommended to import custom meshes from external tools.
+NOTE: At the moment, newly created meshes are always spheres. In the future,
+we'd like to have some basic controls over how mesh assets are created. For the
+time being it's recommended to import custom meshes from external tools.
 
 ## Linking the Sphere Mesh
 
-You may have noticed that if you change your selection, the content of the **Properties Window** changes with it. The properties window, located at the top right, allows you to view and
-modify the properties of the selected item.
+You may have noticed that if you change your selection, the content of the
+**Properties Window** changes with it. The properties window, located at the top
+right, allows you to view and modify the properties of the selected item.
 
-To link your sphere asset, you first need to add a new
-**mesh component** to an entity:
+To link your sphere asset, you first need to add a new **mesh component** to an
+entity:
 
 1. Click one of your entities in the **Outliner Window**.
 2. Inside the **Properties Window**, click **+** in the **Components** section.
 3. From the context menu, choose **Mesh**.
-4. Drag your mesh asset from [the previous section](#creating-a-sphere-mesh) to the droppable area next to **Mesh**
-   inside the **mesh component**.
+4. Drag your mesh asset from [the previous section](#creating-a-sphere-mesh) to
+   the droppable area next to **Mesh** inside the **mesh component**.
 
 NOTE: If you're unsure what components are or how they work, don't worry about
 it. We'll cover this later.
@@ -99,19 +107,20 @@ because it obscures the grid. So let's add some lights to the scene as well.
 3. This time we'll add a light component by clicking **Light** from the context
    menu.
 
-This adds a light source to the scene, but it is currently positioned right inside the
-sphere, so it has no effect. You'll have to move the light a bit so that it is
-located outside the sphere.
+This adds a light source to the scene, but it is currently positioned right
+inside the sphere, so it has no effect. You'll have to move the light a bit so
+that it is located outside the sphere.
 
-You can move entities by dragging the white circle that is positioned at the location of the selected entity. Simply grab the
-white circle around the light icon and move it outside of the sphere.
+You can move entities by dragging the white circle that is positioned at the
+location of the selected entity. Simply grab the white circle around the light
+icon and move it outside of the sphere.
 
 ## Conclusion
 
-And that's it! You should now have a visible sphere inside your scene. If you like, go ahead
-and save your changes by clicking the **Save** button in the
-**Entity Editor Window**, otherwise, the entity asset will be empty again
-the next time you open it.
+And that's it! You should now have a visible sphere inside your scene. If you
+like, go ahead and save your changes by clicking the **Save** button in the
+**Entity Editor Window**, otherwise, the entity asset will be empty again the
+next time you open it.
 
 We rushed a bit through a lot of different topics in this chapter. Otherwise, it
 would have taken a long time for you to get something exciting on your screen.

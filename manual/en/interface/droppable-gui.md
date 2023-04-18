@@ -12,8 +12,8 @@ drag and drop your asset on top of the droppable GUI.
 
 Alternatively, you can also paste asset UUIDs. For this you need to click the
 droppable GUI once. When it receives a blue highlight ring you can paste the
-UUID via the `Ctrl` + `V` or `Command` + `V` shortcut. It is also possible to
-paste UUIDs via the right-click context menu.
+UUID via the `Ctrl` + `V` or `⌘` + `V` shortcut. It is also possible to paste
+UUIDs via the right-click context menu.
 
 ## Unlinking Assets
 
