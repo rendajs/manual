@@ -3,8 +3,9 @@ pages:
   - getting-started/
   - studio-windows/
   - interface/
+  - entities.md
   - materials/
   - assets/
   - preferences.md
+  - building-projects.md
   - advanced/
-  - contributing.md

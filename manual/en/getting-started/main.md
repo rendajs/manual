@@ -8,7 +8,7 @@ library instead, you can find out more about this at
 
 Installation of Renda Studio is as easy as going to
 [renda.studio](https://renda.studio/) in your browser. While Studio may be
-hosted as a website, don't be fooled by its platform! Your projects remain
+hosted as a website, don't be fooled by its platform! Your projects are stored
 entirely on your own device.
 
 NOTE: Renda is still in early development, so for now, only Canary versions are

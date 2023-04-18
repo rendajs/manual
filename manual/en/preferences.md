@@ -3,7 +3,7 @@
 Renda Studio has no single location where all preferences are stored. Instead,
 you'll usually find the preference you're looking for inside the window related
 to that preference. If a window has preferences available, it will show a button
-in the top right with a gear icon. Clicking that will reveal a popover
+in the top right corner with a gear icon. Clicking that will reveal a popover
 containing all the preferences for that window.
 
 NOTE: Windows can contain preferences that are not shown in this popover menu.
@@ -17,15 +17,13 @@ The preferences popover contains a dropdown menu at the top that allows you to
 choose the location where your changes will be stored. This allows you to only
 change your preference for the current project for example.
 
-The locations you can choose from:
+These are locations you can choose from:
 
 - **Global:** These preferences are stored in browser cookies. This causes the
   values to be shared across projects, windows, and workspaces.
-- **Workspace:** Preferences are stored in the current workspace. Switching to a
+- **Workspace:** These are stored in the current workspace. Switching to a
   different project will not cause the preference to change. But switching to a
-  different workspace means the value will change to either that of the new
-  workspace, or the global value depending on if the new workspace has a value
-  configured.
+  different workspace means the value will change in case it has been set.
 - **Version Control:** Preferences are stored in a file in the current project.
   This file is tracked in git, meaning that if other users checkout the
   repository, they'll benefit (or suffer, depending on your decision!) from your
@@ -47,11 +45,15 @@ take precedence over the value inside the 'global' location.
 ## The Default Location
 
 The dropdown menu also has 'Default' as an option. This is not a location, but
-when 'Default' is selected, all preferences will use their default location.
-This means two preferences can be visible next to each other, even though both
-store their values at different locations.
+it configures all preferences to use their preferred location. This means two
+preferences can be visible next to each other, even though both store their
+values at different locations.
 
 Most of the time the default location for preferences is 'global', but sometimes
-it makes more sense to store preferences somewhere else by default. All
-preferences use sensible default locations. So you generally don't have to worry
-about where it is stored.
+it makes more sense to store preferences somewhere else. One example is the
+preference for controlling whether to allow your project to be remotely edited.
+You likely only want to enable this for some projects, so by default, this
+preference is stored in the 'project' location.
+
+All preferences use sensible default locations. So you generally don't have to
+worry about where it is stored.

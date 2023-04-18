@@ -37,4 +37,5 @@ So ultimately it doesn't matter which approach you take. You can always start
 using Renda as a framework and then slowly work your way down to a lower-level
 approach.
 
-TODO link to building page once it exists
+To learn more about all the different ways to build your Renda application, head
+over to [Building Projects](../building-projects.md).

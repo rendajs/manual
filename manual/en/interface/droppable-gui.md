@@ -1,16 +1,17 @@
 # Droppable GUI
 
 A droppable GUI is a location where references to assets can be linked. These
-references can then be used by scripts or things like the renderer for instance.
-For example, the mesh component allows you to link a mesh and a material. That
-way these assets can be reused in other places as well.
+references can then be used by scripts or things like the renderer. For example,
+the mesh component allows you to link a mesh and a material.
+
+Droppable GUIs allow you to easily reuse assets in multiple places.
 
 ## Linking Assets
 
-There are several ways to link an asset but perhaps the most intuitive way is to
-drag and drop your asset on top of the droppable GUI.
+There are several ways to link [assets](../assets/), but perhaps the most
+intuitive way is to drag and drop your asset on top of the droppable GUI.
 
-Alternatively, you can also paste asset UUIDs. For this you need to click the
+Alternatively, you can also paste asset UUIDs. For this, you need to click the
 droppable GUI once. When it receives a blue highlight ring you can paste the
 UUID via the `Ctrl` + `V` or `⌘` + `V` shortcut. It is also possible to paste
 UUIDs via the right-click context menu.
@@ -24,7 +25,7 @@ do this from the right-click context menu.
 ## Inspecting Dropped Assets
 
 If you double-click the droppable GUI, the currently dropped asset will be
-opened in the properties window. This allows you to quickly view and change
+opened in the properties window. This allows you to quickly view and change the
 values of the linked asset. This is also the only way to
 [edit embedded assets](../assets/embedded-assets.md).
 

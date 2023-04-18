@@ -2,7 +2,7 @@
 
 The default material map uses a physically based rendering (PBR) model. If
 you've already worked with PBR materials before, you likely already have enough
-knowledge to work with the default material. If not, there's also a lot of
+knowledge to work with the default material. If not, there are also a lot of
 resources available online about this.
 
 But with that out of the way. Here's a brief overview of how the default
@@ -11,23 +11,24 @@ material map properties work in the context of Renda.
 ## Albedo
 
 Albedo controls the main color of your object. It essentially determines how
-much light is reflected by the material. The Albedo Adjust property functions as
+much light is absorbed by the material. The Albedo Adjust property functions as
 a multiplier to the texture that you provided.
 
-When no Albedo Texture is specified, a completely white texture is used. This
-allows you to set the exact color using the Albedo Adjust property.
+When no Albedo Texture is specified, a completely white texture is used
+internally. This allows you to set the exact color using the Albedo Adjust
+property.
 
 ## Metallic
 
 Metallic controls how much your material looks like a metal. A value of 0
-indicates that the material is not a metal at all, such as plastic, wood, or
+indicates that the material is not metallic at all, such as plastic, wood, or
 stone. And a value of 1 indicates that the material is completely metallic such
 as steel, iron, or gold.
 
-It is also possible to set this value to something in between 0 and 1. In the
-real world particles are usually either metallic or nonmetallic, but if the
-particles of a material are small enough it may look like they have a value in
-between.
+It is also possible to set this value to something between 0 and 1. In the real
+world, particles are usually either metallic or nonmetallic. But if the
+particles that make up your object are small enough, and your object consists of
+both metallic and nonmetallic particles, you can use a value between 0 and 1.
 
 The Metallic Adjust property also functions as a multiplier on top of the
 metallic texture. While it is possible to adjust the looks of your metallic
@@ -41,9 +42,9 @@ Whereas a more smooth surface could make the material almost look like a mirror.
 
 ## Metallic Roughness Texture
 
-A single texture and sampler is used to control the metallic and roughness.
-Renda follows the glTF spec and uses the blue channel for metallic value, and
-the green channel for the roughness value.
+A single texture and sampler are used to control the metallic and roughness.
+Renda follows the glTF spec and uses the blue channel for the metallic value,
+and the green channel for the roughness value.
 
 ## Normal
 
