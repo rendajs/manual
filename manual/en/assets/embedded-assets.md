@@ -38,7 +38,6 @@ So instead of this:
 	"assetType": "renda:material",
 	"asset": {
 		"map": "873ade41-8986-4371-b2a3-5bc1aff9d938",
-		// lsfdjklsdfjklsfdljksfd jklsfd jklsfkj lsf jklsfsfjkl sfj klfsjkl sfk jlfsdjkl sdfkjl fsdjkl sdfjkl sdfjkl jkl fjkl sfjkl sfjkl sfjkl sfdjkl sfljk sfdjlk sfd
 		"properties": {
 			"metallicAdjust": 0.123
 		}
