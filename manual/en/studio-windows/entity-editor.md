@@ -7,21 +7,19 @@ instantly seeing the updated changes.
 
 ## Navigating the Editor
 
-When you are using a touchpad that supports two-finger scrolling, you can use
-that to control the camera.
+You can drag the viewport by holding down your middle mouse button in the entity
+editor. When you are using a touchpad that supports two-finger scrolling, you
+can also use that to control the viewport camera.
 
-NOTE: Moving the camera while holding down a mouse button is not yet supported,
-but [it is planned](https://github.com/rendajs/Renda/issues/544).
-
-By default, this gesture orbits the camera, but there are a few modifier keys
+By default, these gestures orbit the camera, but there are a few modifier keys
 that you can use to control the behavior of the gesture:
 
 - `Shift` allows you to pan the camera, i.e. move the camera in a straight line
   without rotating it.
-- `Ctrl` or `⌘` allows you to move the camera back and forward.
+- `Ctrl` or `⌘` allows you to move the camera backward and forward.
 
 NOTE: Depending on your browser and platform, you might also be able to use
-pinch gestures on your touchpad to move the camera back and forward.
+pinch gestures on your touchpad to move the camera backward and forward.
 
 ## Moving Entities
 
