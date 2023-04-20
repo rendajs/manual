@@ -23,8 +23,12 @@ look like. Or maybe there is even already a solution available!
 Renda is still pretty early in development and major decisions about the
 architecture are still being made. Because of this, a lot of issues still
 require a discussion about the approach that needs to be taken. If you want to
-contribute code, it must have an accompanying issue labeled
+contribute code, search for issues labeled
 ["help wanted"](https://github.com/rendajs/Renda/issues?q=is%3Aissue+is%3Aopen+label%3A%22Help+wanted%22).
+They are more likely to be accepted.
+
+To find your way around the files, check out
+[Working With the Codebase](./working-with-the-codebase.md).
 
 ## Q&A
 

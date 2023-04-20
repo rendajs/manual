@@ -41,26 +41,6 @@ some files in the background that allows you to get type checking and
 autocompletions in your editor. This even works for files using the Deno api, no
 Deno extension required!
 
-### Editing Code Without Reloading
-
-If you want to modify JavaScript files without the need to reload the page, you
-can make use of the Workspaces feature in Chrome DevTools.
-[This page](https://developer.chrome.com/docs/devtools/workspaces/#devtools)
-tells you all about it, but here's the gist of it:
-
-1. Open the **Sources panel** in DevTools.
-1. In the left sidebar of the Sources panel click the **Filesystem tab**.
-1. Click **Add folder to workspace** and select the `Renda` repository directory
-   in the file picker that opened.
-1. When prompted, click **Allow**.
-
-And that's it! You should be able to modify JavaScript files from your favorite
-editor or from DevTools directly.
-
-NOTE: There are some circumstances where you still need to reload after editing.
-Though DevTools will almost always print a warning in the console when this
-happens.
-
 ## Actually Building From Source for Real Now
 
 Ok, but let's be honest, making all these requests to the separate source files
