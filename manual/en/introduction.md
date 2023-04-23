@@ -8,6 +8,17 @@ many features you use.
 Renda comes with an online editor called [Renda Studio](https://renda.studio)
 where you can easily build your scenes and adjust parameters to your liking.
 
+## Design goals
+
+- Provide a web based editor that can run without installing anything.
+- No login or paywalls.
+- Fully open source.
+- Great usability for new users, greater flexibility for advanced users.
+- Tight feedback loops with immediate updates when you make a change.
+- Small bundle sizes that only contain code that you are actually using.
+
+[full list of design goals](./advanced/design-goals.md)
+
 ## Choose Your Approach
 
 If you're just starting out with development, you likely want to use Renda
