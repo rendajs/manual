@@ -2,7 +2,7 @@
 
 This section goes over how to use Renda Studio. If you'd like to use Renda as a
 library instead, you can find out more about this at
-[Framework, Library, or in Between](../framework-library-or-in-between.md).
+[Framework, Library, or in Between](./framework-library-or-in-between.md).
 
 ## Installation
 
