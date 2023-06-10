@@ -2,8 +2,8 @@ pages:
   - introduction.md
   - getting-started/
   - studio-windows/
+  - core-concepts/
   - interface/
-  - entities.md
   - materials/
   - assets/
   - preferences.md
