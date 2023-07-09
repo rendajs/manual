@@ -57,3 +57,17 @@ preference is stored in the 'project' location.
 
 All preferences use sensible default locations. So you generally don't have to
 worry about where it is stored.
+
+## Where Are Preferences Stored?
+
+Depending on which location you chose, you can inspect and modify preferences
+manually. The main two files you'll want to look at are located at
+`.renda/localPreferences.json` and `.renda/sharedPreferences.json` inside your
+project folder. These contain the preferences for the 'Version Control',
+'Project', and 'Window - Project' locations. `localPreferences.json` should be
+`.gitignore`'d in order to not share these preferences with other team members.
+
+Finally, the 'Workspace' and 'Window - Workspace' preferences are stored in your
+browser, and can't easily be modified manually. Though if you wish to inspect
+them, you can try looking for the 'workspaces' IndexedDB using your browser
+inspector.
