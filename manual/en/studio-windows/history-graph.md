@@ -3,9 +3,6 @@
 The history graph shows the changes you have made in the past. It allows you to
 undo and redo previous actions.
 
-NOTE: Keyboard shortcuts for history are
-[not yet supported](https://github.com/rendajs/Renda/issues/549).
-
 Your previous actions show up in chronological order from top to bottom.
 Clicking one of these entries makes the state of your project go back to when
 that action was performed.
